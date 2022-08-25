@@ -42,16 +42,7 @@ st.write('You selected:', selected_movie_name)
 
 if st.button('Recommend'):
     recommended_movies,recommended_movies_poster = recommend(selected_movie_name)
-    # for k,v in recommended_movies.items():
-    #     # print(k,v)
-    #     st.write(k,v)
-    # print(recommended_movies.items())
-    # col1, col2, col3, col4,col5,col6,col7,col8,col9 = st.columns(9)
-    # col = [col1,col2,col3,col4,col5,col6,col7,col8,col9]
-    # for i in range(1,9):
-    #     with col[i]:
-    #         st.header(list(recommended_movies.keys())[i])
-    #         st.image(recommended_movies_poster[i])
+
     col1, col2, col3 = st.columns(3)
 
     with col1:

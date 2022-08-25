@@ -16,3 +16,24 @@ user to user
 
 ### Hybrid
 combining content based and collaborative filtering
+
+___
+
+movie['tags'] = movie['overview']+ movie['keywords'] + movie['genres'] + movie['cast'] + movie['crew']
+from sklearn.feature_extraction.text import TfidfVectorizer
+cv = TfidfVectorizer(max_features=10000)
+
+![](Images/1.jpg)
+
+movie['tags'] = movie['overview']+ movie['keywords'] + movie['genres'] + movie['cast'] + movie['crew']
+from sklearn.feature_extraction.text import CountVectorizer
+cv = CountVectorizer(max_features=10000)
+
+![](Images/2.jpg)
+
+movie['tags'] =  movie['keywords'] + movie['genres'] + movie['cast'] + movie['crew']
+from sklearn.feature_extraction.text import TfidfVectorizer
+cv = TfidfVectorizer(max_features=10000)
+
+![](Images/3.jpg)
+
