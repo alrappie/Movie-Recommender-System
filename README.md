@@ -4,6 +4,7 @@ Tutorial From [CampusX](https://www.youtube.com/watch?v=1xtrIEwY_zY&list=PLKnIA1
 
 Data from [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)
 
+Deploy https://alrappie-mv-recommender.herokuapp.com/
 ___
 
 ## Types of Recommender Systems
